@@ -1,5 +1,6 @@
 from Utils.utils import make, make_loader
 import wandb
+from tqdm.auto import tqdm
 
 import torch.nn as nn
 from train       import *
@@ -20,31 +21,34 @@ def organizer(One_hot_Dataframe, config):
     val_loader    = make_loader(test_data,  batch_size=config.batch_size)
 
     total_val_loss = 100000
+
     for partition, (train_indices, test_indices) in enumerate(Train_Test_indices):
+        print('Starting partition number: ',partition)
         # Explain this
         train_data.indices = train_indices      
         test_data.indices  = test_indices
 
         val_loss_partition = 100000
-        for epoch in range(config.epochs):
-            train_loss = train(epoch, criterion, model, optimizer, train_loader)
-            val_loss   = validate(criterion, model, val_loader)
+        
+        for epoch in tqdm(range(config.epochs)):
+            train(epoch, criterion, model, optimizer, train_loader, partition, device = 'cuda')
+            val_loss, accuracy   = validate(criterion, model, val_loader, partition, device = 'cuda')
 
-            # Log the train and validation loss values to wandb
-
+            wandb.log({f'Accuracy partition num: {partition}' : accuracy}, step = epoch) #At each epoch stored the accuracy 
             if val_loss < val_loss_partition:
                 val_loss_partition = val_loss
-            wandb.log({'Loss ' + str(partition): train_loss, 'Split': 'Train'})
-            wandb.log({'Loss ' + str(partition): val_loss,   'Split': 'Validation'})
 
+        print(f"Partition number {partition} has finished")
+
+        if val_loss_partition < total_val_loss:
+            print("Best model actualized") 
+            total_val_loss = val_loss_partition
+            best_model = model
+
+        #Reset the model at each partition
         model = reset_weights(model)
-        #Reset the model at each iteration
 
+    if config.save:
+        torch.save(best_model.state_dict(), f'/home/xnmaster/CheckPoints/{config.name}.pth')
 
-
-
-
-
-
-
-    # and use them to train the model
+    return best_model

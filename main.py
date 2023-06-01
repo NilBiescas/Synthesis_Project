@@ -33,19 +33,14 @@ def model_pipeline(One_hot_Dataframe, cfg:dict) -> None:
         # Add the name of the run
         wandb.run.name = config.name
 
-        organizer(One_hot_Dataframe, config)
-        
-        train(model, train_loader, criterion, optimizer, config)
-
-        # and test its final performance
-        test(model, test_loader)
+        model = organizer(One_hot_Dataframe, config)
 
     return model
 
 if __name__ == "__main__":
     wandb.login()
 
-    pkl_file = r'C:\Users\34644\Desktop\Second Semester\Synthesis Project' #Pickle file path
+    pkl_file = '/home/xnmaster/Language_GrauIAI_UAB.pkl' #Pickle file path
     # Obtain the dataset
     Task_Data          = pd.read_pickle(pkl_file)               # Read the pkl file containg the pandas dataframe object
     Dataset_process    = process_dataset(Task_Data)             # Obtain the preprocess Dataset
@@ -56,16 +51,14 @@ if __name__ == "__main__":
 
     #Training configurations
     config = dict(
-        name="Firts Trial",
-        epochs=70,
+        name="128 Batch Size",
+        epochs=30,
         classes=num_classes,
-        batch_size= 256,
+        batch_size= 128,
         learning_rate= 0.00001,
-        weigh_decay=0.00001,
+        weight_decay=0.00001,
         input_size=input_size,
         dim = 256,
-        dropout = 0.2,
-        dataset="Con-Text dataset",
-        architecture="ConTextTransformer")
+        save=True)
     
     model = model_pipeline(One_hot_Dataframe, config)

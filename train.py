@@ -1,6 +1,7 @@
 import torch
+import wandb
 
-def train(epoch, criterion, model, optimizer, loader, device = 'cuda'):
+def train(epoch, criterion, model, optimizer, loader, partition, device = 'cuda'):
     
     total_loss = 0.0
 
@@ -16,12 +17,11 @@ def train(epoch, criterion, model, optimizer, loader, device = 'cuda'):
         loss.backward()
         optimizer.step()
 
-        if batch_idx % 100 == 0:
-            print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
-                epoch, batch_idx * len(data), len(loader.dataset),
-                100. * batch_idx / len(loader), loss.item()))
-
+        if batch_idx % 5000 == 0:                # Every 100 batches log the loss
+            wandb.log({f'Train loss partition num: {partition}': loss})
 
         total_loss += loss.item()  #.item() is very important here? Why?
 
-    return total_loss / len(loader.dataset)
+
+    print('Train Epoch: {} \tLoss: {:.6f}'.format(
+                epoch, total_loss / len(loader.dataset)))
