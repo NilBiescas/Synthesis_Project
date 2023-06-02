@@ -51,12 +51,12 @@ if __name__ == "__main__":
 
     #Training configurations
     config = dict(
-        name="128 Batch Size",
-        epochs=30,
+        name="256_Batch_Size_30_epocs",
+        epochs=50,
         classes=num_classes,
-        batch_size= 128,
+        batch_size= 256,
         learning_rate= 0.00001,
-        weight_decay=0.00001,
+        weight_decay=0.0001,
         input_size=input_size,
         dim = 256,
         save=True)

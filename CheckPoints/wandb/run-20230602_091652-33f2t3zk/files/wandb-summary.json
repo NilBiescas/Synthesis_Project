@@ -1,0 +1,1 @@
+{"Validation loss partition num: 0": 0.7987082004547119, "_timestamp": 1685697781.1337936, "_runtime": 368.7354426383972, "_step": 29849, "Validation Loss num: 0": 0.00709808710157153, "Train Loss num: 0": 0.006956885656207906, "Accuracy partition num: 0": 87.83649681027015, "_wandb": {"runtime": 368}}

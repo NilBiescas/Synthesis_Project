@@ -1,0 +1,59 @@
+wandb_version: 1
+
+name:
+  desc: null
+  value: 128_Batch_Size_with_Dropout
+epochs:
+  desc: null
+  value: 30
+classes:
+  desc: null
+  value: 94
+batch_size:
+  desc: null
+  value: 128
+learning_rate:
+  desc: null
+  value: 1.0e-05
+weight_decay:
+  desc: null
+  value: 0.0001
+input_size:
+  desc: null
+  value: 795
+dim:
+  desc: null
+  value: 256
+save:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.16
+    cli_version: 0.15.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1685698435.475137
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 16
+      - 17
+      - 23
+      - 37
+      4: 3.9.16
+      5: 0.15.0
+      8:
+      - 5

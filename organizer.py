@@ -31,10 +31,13 @@ def organizer(One_hot_Dataframe, config):
         val_loss_partition = 100000
         
         for epoch in tqdm(range(config.epochs)):
-            train(epoch, criterion, model, optimizer, train_loader, partition, device = 'cuda')
+            train_loss           = train(epoch, criterion, model, optimizer, train_loader, partition, device = 'cuda')
             val_loss, accuracy   = validate(criterion, model, val_loader, partition, device = 'cuda')
 
-            wandb.log({f'Accuracy partition num: {partition}' : accuracy}, step = epoch) #At each epoch stored the accuracy 
+            wandb.log({f'Validation Loss num: {partition}' : val_loss})
+            wandb.log({f'Train Loss num: {partition}' : train_loss})
+            wandb.log({f'Accuracy partition num: {partition}' : accuracy}) #At each epoch stored the accuracy 
+            
             if val_loss < val_loss_partition:
                 val_loss_partition = val_loss
 
@@ -45,10 +48,7 @@ def organizer(One_hot_Dataframe, config):
             total_val_loss = val_loss_partition
             best_model = model
 
-        #Reset the model at each partition
-        model = reset_weights(model)
-
     if config.save:
-        torch.save(best_model.state_dict(), f'/home/xnmaster/CheckPoints/{config.name}.pth')
+        torch.save(model.state_dict(), f'/home/xnmaster/Synthesis_Project/CheckPoints/{config.name}.pth')
 
     return best_model

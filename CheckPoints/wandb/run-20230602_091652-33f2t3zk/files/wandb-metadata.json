@@ -1,0 +1,75 @@
+{
+    "os": "Linux-5.15.0-1039-azure-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-06-02T09:16:52.830812",
+    "startedAt": "2023-06-02T09:16:52.392500",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/xnmaster/Synthesis_Project/main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/NilBiescas/Synthesis_Project.git",
+        "commit": "628318e2fd12d510057c3788bff1a44cd4905338"
+    },
+    "email": "nilbiescas3@gmail.com",
+    "root": "/home/xnmaster/Synthesis_Project",
+    "host": "ML-RefVm-536361",
+    "username": "xnmaster",
+    "executable": "/anaconda/envs/pytorch/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 6,
+    "cpu_freq": {
+        "current": 2596.989,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2596.989,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.989,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.989,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.989,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.989,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2596.989,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 145.1909637451172,
+        "used": 81.21221923828125
+    },
+    "gpu": "Tesla M60",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla M60",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 54.90073013305664
+    }
+}

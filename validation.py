@@ -21,7 +21,7 @@ def validate(criterion, model, loader, partition, device = 'cuda'):
         correct += pred.eq(target.view_as(pred)).sum().item()
 
         
-        wandb.log({f'Validation loss partition num: {partition}': loss})
+        #wandb.log({f'Validation loss partition num: {partition}': loss})
 
     val_loss /= len(loader.dataset)
     accuracy = 100. * correct / len(loader.dataset)

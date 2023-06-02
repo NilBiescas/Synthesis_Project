@@ -24,10 +24,10 @@ class TranslationDataset(Dataset):
       return self.X[idx], self.Translator_tensor[idx]
     
 
-def make_loader(dataset, batch_size):
+def make_loader(dataset, batch_size, shuffle=True):
     loader = torch.utils.data.DataLoader(dataset=dataset,
                                          batch_size=batch_size, 
-                                         shuffle=True,
+                                         shuffle=shuffle,
                                          pin_memory=True, num_workers=2)
     return loader
 
@@ -41,7 +41,7 @@ def make(One_hot_Dataframe, config, device="cuda"):
     train = TranslationDataset(One_hot_Dataframe, X)        # Usage of thise Dataframe for training
     test  = TranslationDataset(One_hot_Dataframe, X)        # Usage of thise Dataframe for testing
 
-    Splits_Train_Test  = StratifiedShuffleSplit(n_splits=3, test_size=0.3, random_state=42)
+    Splits_Train_Test  = StratifiedShuffleSplit(n_splits=2, test_size=0.4, random_state=50)
     Train_Test_indices = Splits_Train_Test.split(X, Translators)
 
     model = NeuralNet(config.input_size, config.classes)
