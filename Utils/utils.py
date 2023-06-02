@@ -8,6 +8,8 @@ from Models.model import NeuralNet
 class TranslationDataset(Dataset):
     def __init__(self, One_hot_Dataframe, X, indices = [1]):   #X contains one hot vectors. y contains a dataframe where rows contain the one hot vectors of the translators
       self.Translator2Label  = {translator:idx for idx, translator in enumerate(One_hot_Dataframe["TRANSLATOR"].unique())}
+      self.Labels2Translator = {item:key for key, item in self.Translator2Label.items()}
+      
       self.Translator        = One_hot_Dataframe["TRANSLATOR"].map(self.Translator2Label)
       self.Translator_tensor = torch.tensor(self.Translator.values)
 
