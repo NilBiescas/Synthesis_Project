@@ -23,9 +23,9 @@ Our mission is to assist project managers at iDisc in making task assignments mo
 
 
 - `Decision_Trees/`: This directory contains Jupyter notebooks for the models we've built using decision trees. The notebooks included are "DecisionTrees_synthesis.ipynb" and "randomforest_synthesis.ipynb".
--
+- Añadir
 - `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its unique configuration, such as batch sizes and the use of dropout techniques.
--
+- Añadir
 - `TKinter`: This directory contains a python file using tkinter to create the interface of the project. For the in depth explanation access the folder.
 
 
