@@ -49,13 +49,17 @@ Before starting with the usage, ensure Python 3.x is installed on your system. I
 git clone https://github.com/NilBiescas/Synthesis_Project.git
 ```
 
-## Executing the program
+## Executing the MLP
 
 To run the program you will need to do update the path to the data downloaded for the MLP. The variable that will need to be changed is found in the main.py file and it is name **pkl_file**.
 
 ```
 python main.py
 ```
+
+## Executing the Trees and Random Forest
+
+Just download the notebook, upload the data and run all the cells, yes, it´s that easy!
 
 ## Performance
 
