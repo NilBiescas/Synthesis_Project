@@ -11,7 +11,7 @@ Welcome to our project! We are Neil de la Fuente, Nil Biescas, Xavier Soto, Jord
 - [Project Overview](#Project-Overview)
 - [Repository Structure](#Repository-Structure)
 - [Data](#Data)
-- [Installation and Usage](#Installation and Usage)
+- [Installation and Usage](#Installation-and-Usage)
 - [Performance](#Performance)
 - [How to Contribute](#How-to-Contribute)
 - [Want to know more?](#Want-to-know-more?)
