@@ -11,6 +11,8 @@ Welcome to our project! We are Neil de la Fuente, Nil Biescas, Xavier Soto, Jord
 - [Project Overview](#Project-Overview)
 - [Repository Structure](#Repository-Structure)
 - [Data](#Data)
+- [Installation and Usage](#Installation and Usage)
+- [Performance](#Performance)
 - [How to Contribute](#How-to-Contribute)
 - [Want to know more?](#Want-to-know-more?)
 - [Contact](#Contact)
@@ -20,7 +22,6 @@ Welcome to our project! We are Neil de la Fuente, Nil Biescas, Xavier Soto, Jord
 Our mission is to assist project managers at iDisc in making task assignments more efficient and effective. To achieve this, we have developed several machine learning models, including a Random Forest with Decision Trees and a Multilayer Perceptron (MLP). These models take into account various factors such as previous tasks completed by translators, client preferences, and features of the task at hand. The output is a list of top-k candidates best suited for a given task, making the assignment process streamlined and informed.
 
 ## Repository Structure
-
 
 - `Decision_Trees`: This directory contains Jupyter notebooks for the models we've built using decision trees. The notebooks included are "DecisionTrees_synthesis.ipynb" and "randomforest_synthesis.ipynb".
 - `Models`: This directory contains the model used to trained the MLP.
@@ -40,9 +41,25 @@ Here you have a link for the data needed for each of the models (Might be differ
 
 Before the data is fed into our models, it undergoes a thorough preprocessing. This includes cleaning, normalization, and feature extraction, ensuring that our models receive quality data that helps them make the best predictions.
 
+## Installation and Usage
+
+Before starting with the usage, ensure Python 3.x is installed on your system. If it is not, you can download it [here](https://www.python.org/downloads/). Next, clone the project from GitHub to your local machine using the command:
+
+```
+git clone https://github.com/NilBiescas/Synthesis_Project.git
+```
+
 ## Executing the program
 
 To run the program you will need to do update the path to the data downloaded for the MLP. The variable that will need to be changed is found in the main.py file and it is name **pkl_file**.
+
+```
+python main.py
+```
+
+## Performance
+
+Our models have shown promising results in optimizing the task assignment process. The Random Forest model achieved an **Average Accuracy: 0.82%**, **Average Recall: 0.79** and **Average F1-Score: 0.80**, and the MLP model achieved y%. We continue to improve and optimize these models. The performance measures are based on both the accuracy of the task assignment and the improvement in efficiency.
 
 ## How to Contribute
 
