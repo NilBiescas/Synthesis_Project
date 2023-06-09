@@ -28,7 +28,7 @@ Our mission is to assist project managers at iDisc in making task assignments mo
 - Utils/ Inside this directory you will find trhee files:
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Utils.py**          used to obtain the the dataloader  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **organaizer.py**     used to organize the training and validation of the model
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **organaizer.py**     used to organize the training and validation of the model  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **utils_Dataset.py**  used to preprocess all the data from the .pkl file  
 - `TKinter`: This directory contains a python file using tkinter to create the interface of the project. For the in depth explanation access the folder.
 
