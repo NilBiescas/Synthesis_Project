@@ -1,6 +1,5 @@
 # Instant -> Traducción
 
-![Alt Text](https://www.careerguide.com/career/wp-content/uploads/2021/06/Translation-GIF.gif)
 <img src="https://www.careerguide.com/career/wp-content/uploads/2021/06/Translation-GIF.gif" width="450" height="250" />
 
 
