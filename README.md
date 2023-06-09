@@ -5,4 +5,34 @@
 
 Here you have a link for the data needed for each of the model (Might be different data due to the difference between decision trees and neural networks):
 
-[Data for Decision Trees and Random Forest](https://drive.google.com/drive/folders/1rRwvEvHWddtyI-3mC2S8FqJHDPvdnrBc?usp=sharing)
+
+
+
+# iDisc Translation Task Assignment: A Machine Learning Approach
+
+Welcome to our project! We are Neil de la Fuente, Nil Biescas, Xavier Soto, Jordi Longaron, and Daniel Vidal, and we have joined forces to revolutionize the way iDisc, a translation company, assigns tasks to its translators.
+
+## Project Overview
+
+Our mission is to assist project managers at iDisc in making task assignments more efficient and effective. To achieve this, we have developed several machine learning models, including a Random Forest with Decision Trees and a Multilayer Perceptron (MLP). These models take into account various factors such as previous tasks completed by translators, client preferences, and features of the task at hand. The output is a list of top-k candidates best suited for a given task, making the assignment process streamlined and informed.
+
+## Repository Structure
+
+- `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its own unique configuration, such as batch sizes and the use of dropout techniques.
+- `Decision_Trees/`: This directory contains Jupyter notebooks for the models we've built using decision trees. The notebooks included are "DecisionTrees_synthesis.ipynb" and "randomforest_synthesis.ipynb".
+
+## Data
+
+Here you have a link for the data needed for each of the model (Might be different data due to the difference between decision trees and neural networks):
+- [Data for Decision Trees and Random Forest](https://drive.google.com/drive/folders/1rRwvEvHWddtyI-3mC2S8FqJHDPvdnrBc?usp=sharing)
+- Data for MLP
+
+Before the data is fed into our models, it undergoes a thorough preprocessing. This includes cleaning, normalization, and feature extraction, ensuring that our models receive quality data that helps them make the best predictions.
+
+## How to Contribute
+
+We welcome contributions! If you're interested in improving our models, fixing bugs, or adding new features, please feel free to make a pull request.
+
+## Contact
+
+For any inquiries or issues, feel free to reach out to us.
