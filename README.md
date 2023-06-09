@@ -61,4 +61,5 @@ For any inquiries or issues, feel free to reach out to us:
 - [Nil Biescas](https://www.linkedin.com/in/nil-biescas-rue-3b830b238/)
 - [Jordi Longaron](jordilongaroncarbonell@gmail.com)
 - [Xavi Soto](xaviminisoto@gmail.com)
-- Añadid los vuestros
+- [Danie Vidal](https://www.linkedin.com/in/daniel-alejandro-vidal-guerra-21386b266/)
+
