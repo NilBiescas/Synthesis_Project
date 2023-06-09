@@ -63,10 +63,11 @@ Just download the notebooks, upload the data and run all the cells, yes, it´s t
 
 ## Performance
 
-Our models have shown promising results in optimizing the task assignment process. The Random Forest model and the MLP model achieved the following performance:
+Our models have shown promising results in optimizing the task assignment process. The Decision Tress, The Random Forest model and the MLP model achieved the following performance:
 
 | **Model** | **Accuracy** | **Recall** | **F1-Score** |
 | --------- | ---------- | ------------ | ------------ |
+| Decision Trees | 71% | 68% | 69% |
 | Random Forest | 82% | 79% | 80% |
 | MLP | 84% | 81% | 81% |
 
