@@ -53,4 +53,4 @@ For any inquiries or issues, feel free to reach out to us:
 - [Neil de la Fuente](https://www.linkedin.com/in/neil-de-la-fuente)
 - [Jordi Longaron](jordilongaroncarbonell@gmail.com)
 
--Añadid los vuestros
+- Añadid los vuestros
