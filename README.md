@@ -71,7 +71,8 @@ Our models have shown promising results in optimizing the task assignment proces
 | Random Forest | 82% | 79% | 80% |
 | MLP | 84% | 81% | 81% |
 
-The performance measures are based on the accuracy of the task assignment. We continue to improve and optimize these models. A deeper analysis will overgo on the report.
+The Multilayer Perceptron (MLP) model is achieving better performance primarily due to its higher complexity and better capacity to model intricate non-linear relationships, something that gives MLP an edge when dealing with complex task assignment data. Its learning method, backpropagation, allows it to learn from its errors, incrementally improving its performance as it processes more data. Additionally, MLPs tend to perform better with high-dimensional data, particularly when there are sophisticated interactions between features. These 
+qualities make it adept at handling the complexity of our dataset, contributing to its superior performance in comparison to the Random Forest model. The performance measures are based on the accuracy of the task assignment. We continue to improve and optimize these models. A deeper analysis will overgo on the report.
 
 ## How to Contribute
 
