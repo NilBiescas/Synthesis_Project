@@ -25,7 +25,7 @@ Our mission is to assist project managers at iDisc in making task assignments mo
 -
 - `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its unique configuration, such as batch sizes and the use of dropout techniques.
 -
-- `TKinter`: This directory contains a python file using tkinter to create the interface of the project. For the in depth explanation access the folder
+- `TKinter`: This directory contains a python file using tkinter to create the interface of the project. For the in depth explanation access the folder.
 
 
 ## Data
