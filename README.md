@@ -45,4 +45,5 @@ Soon the report on the project will be available for you to have a deeper unders
 
 For any inquiries or issues, feel free to reach out to us:
 
--[Neil de la Fuente](linkedin.com/Neil-de-la-Fuente)
+-[Neil de la Fuente](www.linkedin.com/in/neil-de-la-fuente)
+-Añadid los vuestros
