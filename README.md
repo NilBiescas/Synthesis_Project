@@ -71,7 +71,7 @@ Our models have shown promising results in optimizing the task assignment proces
 | Random Forest | 82% | 79% | 80% |
 | MLP | 84% | 81% | 81% |
 
- We continue to improve and optimize these models. The performance measures are based on the accuracy of the task assignment. A deeper analysis will overgo on the report.
+The performance measures are based on the accuracy of the task assignment. We continue to improve and optimize these models. A deeper analysis will overgo on the report.
 
 ## How to Contribute
 
