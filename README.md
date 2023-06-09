@@ -23,9 +23,12 @@ Our mission is to assist project managers at iDisc in making task assignments mo
 
 
 - `Decision_Trees/`: This directory contains Jupyter notebooks for the models we've built using decision trees. The notebooks included are "DecisionTrees_synthesis.ipynb" and "randomforest_synthesis.ipynb".
-- Añadir
+- Models: This directory contains the model used to trained the MLP.
 - `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its unique configuration, such as batch sizes and the use of dropout techniques.
-- Añadir
+- Utils/ Inside this directory you will find:
+1. utils.py used to obtain the the dataloader
+2. organaizer.py used to organizer the training and validation of the model
+3. utils_Dataset.py used to preprocess all the data from the .pkl file
 - `TKinter`: This directory contains a python file using tkinter to create the interface of the project. For the in depth explanation access the folder.
 
 
