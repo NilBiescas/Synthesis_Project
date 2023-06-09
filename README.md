@@ -58,7 +58,7 @@ Soon the report on the project will be available for you to have a deeper unders
 For any inquiries or issues, feel free to reach out to us:
 
 - [Neil de la Fuente](https://www.linkedin.com/in/neil-de-la-fuente)
-- [Nil Biescas](linkedin.com/in/nil-biescas-rue-3b830b238)
+- [Nil Biescas](https://www.linkedin.com/in/nil-biescas-rue-3b830b238/)
 - [Jordi Longaron](jordilongaroncarbonell@gmail.com)
 - [Xavi Soto](xaviminisoto@gmail.com)
 - Añadid los vuestros
