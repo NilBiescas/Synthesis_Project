@@ -18,13 +18,18 @@ Our mission is to assist project managers at iDisc in making task assignments mo
 
 Here you have a link for the data needed for each of the model (Might be different data due to the difference between decision trees and neural networks):
 - [Data for Decision Trees and Random Forest](https://drive.google.com/drive/folders/1rRwvEvHWddtyI-3mC2S8FqJHDPvdnrBc?usp=sharing)
-- Data for MLP
+- Data for MLP (Nil añadela)
 
 Before the data is fed into our models, it undergoes a thorough preprocessing. This includes cleaning, normalization, and feature extraction, ensuring that our models receive quality data that helps them make the best predictions.
 
 ## How to Contribute
 
 We welcome contributions! If you're interested in improving our models, fixing bugs, or adding new features, please feel free to make a pull request.
+
+## Want to know more?
+
+Soon the report on the project will be available for you to have a deeper understanding on our work. Stay tunned for updates!
+
 
 ## Contact
 
