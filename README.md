@@ -59,7 +59,7 @@ python main.py
 
 ## Performance
 
-Our models have shown promising results in optimizing the task assignment process. The Random Forest model achieved an **Average Accuracy: 0.82%**, **Average Recall: 0.79** and **Average F1-Score: 0.80**, and the MLP model achieved y%. We continue to improve and optimize these models. The performance measures are based on both the accuracy of the task assignment and the improvement in efficiency.
+Our models have shown promising results in optimizing the task assignment process. The Random Forest model achieved an **Average Accuracy: 0.82%**, **Average Recall: 0.79** and **Average F1-Score: 0.80**, and the MLP model achieved y%. We continue to improve and optimize these models. The performance measures are based on the accuracy of the task assignment.
 
 ## How to Contribute
 
