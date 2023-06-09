@@ -3,9 +3,9 @@
 Welcome to our project! We are Neil de la Fuente, Nil Biescas, Xavier Soto, Jordi Longaron, and Daniel Vidal, and we have joined forces to revolutionize the way [iDisc, a translation company](https://www.idisc.com/en/), assigns tasks to its translators.
 
 # Table of contents
--[Project Overview](#Project-Overview)
--
--
+  -[Project Overview](#Project-Overview)
+  -
+  -
 
 ## Project Overview
 
