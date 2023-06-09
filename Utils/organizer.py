@@ -3,8 +3,9 @@ import wandb
 from tqdm.auto import tqdm
 import sys
 import torch
+import os
 
-sys.path.insert(0, r'C:\Users\34644\Desktop\Second Semester\Synthesis Project\Code_Project')
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from train import train
 from validation import validate
 import torch.nn as nn

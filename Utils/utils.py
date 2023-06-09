@@ -2,8 +2,9 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import StratifiedShuffleSplit
 import sys
+import os 
 
-sys.path.insert(0, r'C:\Users\34644\Desktop\Second Semester\Synthesis Project\Code_Project\Models')
+sys.path.insert(0, os.path.join(os.getcwd(), 'Models'))
 from model import NeuralNet
 
 # Crear Dataset y DataLoader de PyTorch
