@@ -21,12 +21,12 @@ Our mission is to assist project managers at iDisc in making task assignments mo
 
 - `Decision_Trees/`: This directory contains Jupyter notebooks for the models we've built using decision trees. The notebooks included are "DecisionTrees_synthesis.ipynb" and "randomforest_synthesis.ipynb".
 -
-- `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its own unique configuration, such as batch sizes and the use of dropout techniques.
+- `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its unique configuration, such as batch sizes and the use of dropout techniques.
 -
 -
 ## Data
 
-Here you have a link for the data needed for each of the model (Might be different data due to the difference between decision trees and neural networks):
+Here you have a link for the data needed for each of the models (Might be different data due to the difference between decision trees and neural networks):
 - [Data for Decision Trees and Random Forest](https://drive.google.com/drive/folders/1rRwvEvHWddtyI-3mC2S8FqJHDPvdnrBc?usp=sharing)
 - Data for MLP (Nil añadela)
 
@@ -38,7 +38,7 @@ We welcome contributions! If you're interested in improving our models, fixing b
 
 ## Want to know more?
 
-Soon the report on the project will be available for you to have a deeper understanding on our work. Stay tunned for updates!
+Soon the report on the project will be available for you to have a deeper understanding of our work. Stay tuned for updates!
 
 
 ## Contact
@@ -46,5 +46,6 @@ Soon the report on the project will be available for you to have a deeper unders
 For any inquiries or issues, feel free to reach out to us:
 
 - [Neil de la Fuente](https://www.linkedin.com/in/neil-de-la-fuente)
+- jordilongaroncarbonell@gmail.com
 
 -Añadid los vuestros
