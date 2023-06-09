@@ -40,6 +40,10 @@ Here you have a link for the data needed for each of the models (Might be differ
 
 Before the data is fed into our models, it undergoes a thorough preprocessing. This includes cleaning, normalization, and feature extraction, ensuring that our models receive quality data that helps them make the best predictions.
 
+## Executing the program
+
+To run the program you will need to do update the path to the data downloaded for the MLP. The variable that will need to be changed is found in the main.py file and it is name **pkl_file**.
+
 ## How to Contribute
 
 We welcome contributions! If you're interested in improving our models, fixing bugs, or adding new features, please feel free to make a pull request.
