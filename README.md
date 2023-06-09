@@ -8,9 +8,12 @@ Our mission is to assist project managers at iDisc in making task assignments mo
 
 ## Repository Structure
 
-- `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its own unique configuration, such as batch sizes and the use of dropout techniques.
-- `Decision_Trees/`: This directory contains Jupyter notebooks for the models we've built using decision trees. The notebooks included are "DecisionTrees_synthesis.ipynb" and "randomforest_synthesis.ipynb".
 
+- `Decision_Trees/`: This directory contains Jupyter notebooks for the models we've built using decision trees. The notebooks included are "DecisionTrees_synthesis.ipynb" and "randomforest_synthesis.ipynb".
+-
+- `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its own unique configuration, such as batch sizes and the use of dropout techniques.
+-
+-
 ## Data
 
 Here you have a link for the data needed for each of the model (Might be different data due to the difference between decision trees and neural networks):
