@@ -59,7 +59,7 @@ python main.py
 
 ## Executing the Trees and Random Forest
 
-Just download the notebook, upload the data and run all the cells, yes, it´s that easy!
+Just download the notebooks, upload the data and run all the cells, yes, it´s that easy!
 
 ## Performance
 
