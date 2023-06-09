@@ -1,5 +1,7 @@
 # Instant -> Traducción
 
+![Alt Text]([https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif](https://www.careerguide.com/career/wp-content/uploads/2021/06/Translation-GIF.gif))
+
 Welcome to our project! We are Neil de la Fuente, Nil Biescas, Xavier Soto, Jordi Longaron, and Daniel Vidal, and we have joined forces to revolutionize the way [iDisc, a translation company](https://www.idisc.com/en/), assigns tasks to its translators.
 
   
