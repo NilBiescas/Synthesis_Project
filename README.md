@@ -2,6 +2,11 @@
 
 Welcome to our project! We are Neil de la Fuente, Nil Biescas, Xavier Soto, Jordi Longaron, and Daniel Vidal, and we have joined forces to revolutionize the way [iDisc, a translation company](https://www.idisc.com/en/), assigns tasks to its translators.
 
+# Table of contents
+-[Project Overview](#Project-Overview)
+-
+-
+
 ## Project Overview
 
 Our mission is to assist project managers at iDisc in making task assignments more efficient and effective. To achieve this, we have developed several machine learning models, including a Random Forest with Decision Trees and a Multilayer Perceptron (MLP). These models take into account various factors such as previous tasks completed by translators, client preferences, and features of the task at hand. The output is a list of top-k candidates best suited for a given task, making the assignment process streamlined and informed.
