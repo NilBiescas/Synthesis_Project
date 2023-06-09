@@ -6,7 +6,7 @@ import torch
 
 import pandas as pd
 
-from organizer import organizer
+from Utils.organizer import organizer
 from Utils.utils_Dataset import process_dataset, OneHotDataframe
 
 from train import *

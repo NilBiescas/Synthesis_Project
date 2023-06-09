@@ -17,10 +17,7 @@ def train(epoch, criterion, model, optimizer, loader, partition, device = 'cuda'
         loss.backward()
         optimizer.step()
 
-        #if batch_idx % 5000 == 0:                # Every 100 batches log the loss
-        #    wandb.log({f'Train loss partition num: {partition}': loss})
-
-        total_loss += loss.item()  #.item() is very important here? Why?
+        total_loss += loss.item() 
 
     
     print('Train Epoch: {} \tLoss: {:.6f}'.format(
