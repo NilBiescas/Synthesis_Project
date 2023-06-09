@@ -9,8 +9,8 @@ Welcome to our project! We are Neil de la Fuente, Nil Biescas, Xavier Soto, Jord
 - [Repository Structure](#Repository-Structure)
 - [Data](#Data)
 - [How to Contribute](#How-to-Contribute)
-- [Lab5](https://github.com/Neilus03/Spotiflyers/tree/main/Labs/Lab5)
-- [Extra files](https://github.com/Neilus03/Spotiflyers/tree/main/Labs/Extra%20files)
+- [Want to know more?](#Want-to-know-more?)
+- [Contact](#Contact)
 
 ## Project Overview
 
