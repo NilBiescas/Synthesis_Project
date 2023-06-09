@@ -22,10 +22,10 @@ Our mission is to assist project managers at iDisc in making task assignments mo
 ## Repository Structure
 
 
-- `Decision_Trees/`: This directory contains Jupyter notebooks for the models we've built using decision trees. The notebooks included are "DecisionTrees_synthesis.ipynb" and "randomforest_synthesis.ipynb".
-- `Models/`: This directory contains the model used to trained the MLP.
-- `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its unique configuration, such as batch sizes and the use of dropout techniques.
-- `Utils/`: Inside this directory you will find three files:
+- `Decision_Trees`: This directory contains Jupyter notebooks for the models we've built using decision trees. The notebooks included are "DecisionTrees_synthesis.ipynb" and "randomforest_synthesis.ipynb".
+- `Models`: This directory contains the model used to trained the MLP.
+- `CheckPoints`: This directory contains checkpoint files of the different models we've experimented with, each having its unique configuration, such as batch sizes and the use of dropout techniques.
+- `Utils`: Inside this directory you will find three files:
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Utils.py**          used to obtain the dataloader  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **organaizer.py**     used to organize the training and validation of the model  
