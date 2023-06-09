@@ -63,7 +63,14 @@ Just download the notebooks, upload the data and run all the cells, yes, it´s t
 
 ## Performance
 
-Our models have shown promising results in optimizing the task assignment process. The Random Forest model achieved an **Average Accuracy: 0.82%**, **Average Recall: 0.79** and **Average F1-Score: 0.80**, and the MLP model achieved an **Accuracy of 84%**, **Recall of 81%** and **F1-score of 81%**. We continue to improve and optimize these models. The performance measures are based on the accuracy of the task assignment.
+Our models have shown promising results in optimizing the task assignment process. The Random Forest model and the MLP model achieved the following performance:
+
+| **Model** | **Accuracy** | **Recall** | **F1-Score** |
+| --------- | ---------- | ------------ | ------------ |
+| Random Forest | 82% | 79% | 80% |
+| MLP | 84% | 81% | 81% |
+
+ We continue to improve and optimize these models. The performance measures are based on the accuracy of the task assignment.
 
 ## How to Contribute
 
