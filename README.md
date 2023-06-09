@@ -2,10 +2,15 @@
 
 Welcome to our project! We are Neil de la Fuente, Nil Biescas, Xavier Soto, Jordi Longaron, and Daniel Vidal, and we have joined forces to revolutionize the way [iDisc, a translation company](https://www.idisc.com/en/), assigns tasks to its translators.
 
-# Table of contents
-  [Project Overview](#Project-Overview)
-  -
-  -
+  
+## Table of Contents
+
+- [Project Overview](#Project-Overview)
+- [Lab2](https://github.com/Neilus03/Spotiflyers/tree/main/Labs/Lab2)
+- [Lab3](https://github.com/Neilus03/Spotiflyers/tree/main/Labs/Lab3)
+- [Lab4](https://github.com/Neilus03/Spotiflyers/tree/main/Labs/Lab4)
+- [Lab5](https://github.com/Neilus03/Spotiflyers/tree/main/Labs/Lab5)
+- [Extra files](https://github.com/Neilus03/Spotiflyers/tree/main/Labs/Extra%20files)
 
 ## Project Overview
 
