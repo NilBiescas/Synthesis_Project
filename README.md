@@ -23,7 +23,9 @@ Our mission is to assist project managers at iDisc in making task assignments mo
 -
 - `CheckPoints/`: This directory contains checkpoint files of the different models we've experimented with, each having its unique configuration, such as batch sizes and the use of dropout techniques.
 -
--
+- `TKinter/`: This directory contains a python file using tkinter to create the interface of the project. Just running the file the interface will be opened. It contains two main buttons, one to plot some information about the data, and also with a searcher for specific workers. And the second button opens several scrollable bars to select the different input variables for our model to predict the most suitable translator.
+
+
 ## Data
 
 Here you have a link for the data needed for each of the models (Might be different data due to the difference between decision trees and neural networks):
